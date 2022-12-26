@@ -68,7 +68,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     },
                     KeyCode::Char('h') => {
                         player.toggle_hyper_shot();
-                    }
+                    },
                     _ => {}
                 }
             }
