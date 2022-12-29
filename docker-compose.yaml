@@ -1,0 +1,8 @@
+services:
+  rust_dev:
+    build: .
+    container_name: game
+    working_dir: /home/app
+    volumes:
+      - .:/home/app
+    tty: true
