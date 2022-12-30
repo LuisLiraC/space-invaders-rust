@@ -1,6 +1,6 @@
 services:
   rust_dev:
-    build: .
+    image: space_invaders_rust
     container_name: game
     working_dir: /home/app
     volumes:
